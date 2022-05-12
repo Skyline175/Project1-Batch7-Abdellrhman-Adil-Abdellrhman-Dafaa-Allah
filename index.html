@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+    <head>
+        <meta charset="utf-8">
+        <meta name="discription" content="this is a test for login page">
+        <link rel="stylesheet" href="style.css">
+        <title>SKYLINE LOGIN FORM</title>
+
+    </head>
+
+    <body>
+        <form class="box" action="index.html" method="post">
+            <h1>Log<span class="span1">in</span></h1>
+            <input type="text" name="" placeholder="user name">
+            <input type="password" name="" placeholder="passwod">
+            <input type="submit" name=""   value="login">
+        </form>
+
+        <form class="box2"  action="index.html" method="post">
+            <h2>FILL <span class="span2">Me</span></h2>
+            <fieldset class="info">
+               <legend>information</legend>
+               <div>
+                   <label id="name-label" for="name">Name:</label>
+                   <input type="text" required id=" name" name="user_name" placeholder="Enter your name"> </div> 
+                
+                <div>
+                   <label id="Adress-label" for="name">Adress:</label>
+                   <input type="text" required id=" name" name="user_Adress" placeholder="Enter your Adress">  
+                </div>
+                   
+                <div>
+                   <label id="phone-label" for="name">Phone number:</label>
+                   <input type="text" required id=" name" name="user_phone number" placeholder="Enter your phone number"> 
+                </div>
+
+           </fieldset>
+    
+            <div>
+                <label for="Gender">Gender</label>
+                <p>
+                    <input type="radio" name="gender" value="male" checked> male<br>
+                    <input type="radio" name="gender" value="female">female <br>
+                    <input type="radio" name="gender" value="other"> other <br>
+                </p>
+            </div>
+            <fieldset>
+                <legend class="h3">SUGGESTION</legend>
+                <div>
+                    <label for="msg"></label>
+                    <p> What is your suggestion for this website ?</p>
+                    <textarea class="sugg" id="msg" name="usre_message" rows="4"
+                    cols="60" placeholder="Enter your suggestion"></textarea>
+                </div>
+            </fieldset>
+
+        </form>
+        
+    </body>
+</html>
